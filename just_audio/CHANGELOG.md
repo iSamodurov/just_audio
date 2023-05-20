@@ -2,10 +2,15 @@
 
 * 
 
+## 0.9.33
+
+* Update minimum flutter version to 3.0.
+
 ## 0.9.32
 
 * Fix ignored tag parameter in AudioSource.asset().
 * Fix ignored tag parameter in AudioSource.file().
+* Fix nested URIs in HLS from EXT-X-MEDIA when using headers.
 
 ## 0.9.31
 
