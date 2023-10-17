@@ -49,7 +49,7 @@ class JustAudioBackground {
     bool preloadArtwork = false,
     Map<String, dynamic>? androidBrowsableRootExtras,
   }) async {
-    WidgetsFlutterBinding.ensureInitialized();
+    //WidgetsFlutterBinding.ensureInitialized();
     await _JustAudioBackgroundPlugin.setup(
       androidResumeOnClick: androidResumeOnClick,
       androidNotificationChannelId: androidNotificationChannelId,
